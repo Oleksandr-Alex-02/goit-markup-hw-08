@@ -1,0 +1,38 @@
+.we-do {
+    padding-bottom: 94px;
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    &__list {
+        position: relative;
+    }
+
+    &__bloc {
+        position: absolute;
+        width: 100%;
+        bottom: 7px;
+        background: rgba(47, 48, 58, 0.8);
+    }
+
+    &__text {
+        margin: 0;
+        padding: 27px 0px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: #ffffff;
+    }
+
+    &__list:not(:last-child) {
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,50 @@
+.command {
+    margin-top: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    background: #f5f4fa;
+
+    &__menu {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__list {
+        background: #ffffff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+
+    &__list:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__bloc {
+        padding-top: 30px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+
+    &__name {
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+    }
+
+    &__profession {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        margin: 0;
+
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+    }
+}

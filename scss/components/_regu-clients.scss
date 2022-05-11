@@ -1,0 +1,36 @@
+.regu-clients {
+    padding: 94px 0px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        fill: #afb1b8;
+
+        border: 1px solid #afb1b8;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__link:hover,
+    &__link:focus {
+        border: 1px solid var(--accent-color);
+        fill: var(--accent-color);
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+}

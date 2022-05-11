@@ -1,0 +1,24 @@
+.section--hero {
+    text-align: center;
+    background: #2f303a;
+    padding: 200px 0px;
+    background-image: linear-gradient(to bottom,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/background.jpg);
+}
+
+.hero-title {
+    width: 696px;
+    margin: auto;
+    margin-bottom: 30px;
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    letter-spacing: 0.06em;
+
+    color: #ffffff;
+}
