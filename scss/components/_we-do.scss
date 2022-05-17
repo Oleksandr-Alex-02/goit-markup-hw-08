@@ -1,6 +1,10 @@
 .we-do {
     padding-bottom: 94px;
 
+    @media (max-width: 1200px) {
+        display: none;
+    }
+
     &__menu {
         display: flex;
         justify-content: center;
@@ -14,8 +18,8 @@
 
     &__bloc {
         position: absolute;
+        bottom: 0px;
         width: 100%;
-        bottom: 7px;
         background: rgba(47, 48, 58, 0.8);
     }
 
@@ -36,3 +40,7 @@
         margin-right: 30px;
     }
 }
+
+// .we-do{
+//     display: none;
+// }

@@ -4,20 +4,19 @@
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 0.83;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 
     &__web {
-        color: #2196f3;
+        color: var(--accent-color);
     }
 }
 
 .header__logo {
-    margin-right: 93px;
     color: #000000;
 }
 
 .footer__logo {
-    margin-bottom: 20px;
     color: #ffffff;
 }

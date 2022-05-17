@@ -12,20 +12,25 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     margin: auto;
-    margin-top: 0;
     padding: 0 15px;
+
+    @media (min-width: 1200px) {
+        width: 1200px;
+    }
 }
 
+
+
 .title-h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.17;
+
     text-align: center;
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
 }
-
