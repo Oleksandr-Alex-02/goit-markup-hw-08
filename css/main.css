@@ -30,13 +30,25 @@ body {
 }
 
 .title-h2 {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+@media (max-width: 768px) {
+  .title-h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+  }
+}
+@media (min-width: 1200px) {
+  .title-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
 }
 
 .logo {
@@ -354,6 +366,11 @@ body {
 .peculiarities {
   padding: 60px 0;
 }
+@media (min-width: 1200px) {
+  .peculiarities {
+    padding: 94px 0;
+  }
+}
 @media (min-width: 768px) {
   .peculiarities__menu {
     display: -webkit-box;
@@ -415,14 +432,19 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
   color: #212121;
+}
+@media (max-width: 767px) {
+  .peculiarities__title {
+    text-align: center;
+  }
 }
 .peculiarities__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .section-portfolio {
@@ -559,6 +581,11 @@ body {
   padding: 60px 0;
   background: #f5f4fa;
 }
+@media (min-width: 1200px) {
+  .command {
+    padding: 94px 0;
+  }
+}
 @media (min-width: 768px) {
   .command__menu {
     display: -webkit-box;
@@ -663,12 +690,19 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.regu-clients {
-  padding: 60px 0px;
+@media (max-width: 767px) {
+  .regu-clients {
+    padding: 60px 0 41px 0;
+  }
+}
+@media (min-width: 768px) {
+  .regu-clients {
+    padding: 60px 0;
+  }
 }
 @media (min-width: 1200px) {
   .regu-clients {
-    padding: 94px 0;
+    padding: 94px 0 91.5px 0;
   }
 }
 
@@ -738,13 +772,8 @@ body {
 }
 
 .footer {
-  padding: 79px 0 41px 0;
+  padding: 60px 0;
   background-color: #2f303a;
-}
-@media (max-width: 1199px) {
-  .footer {
-    padding: 60px 0 60px 0;
-  }
 }
 @media (max-width: 1199px) {
   .footer {
@@ -776,14 +805,18 @@ body {
     margin: 0 165px 0 76px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .footer__address {
     margin: 0;
   }
 }
 .footer .address {
-  margin: 20px 0 60px 0;
   font-style: normal;
+}
+@media (max-width: 1200px) {
+  .footer .address {
+    margin: 20px 0 60px 0;
+  }
 }
 .footer .address__item:not(:last-child) {
   margin-bottom: 8px;

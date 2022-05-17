@@ -1,13 +1,10 @@
 .footer {
-  @media (max-width: 1199px) {
-    padding: 60px 0 60px 0;
-  }
+  padding: 60px 0;
 
   @media (max-width: 1199px) {
     text-align: center;
   }
 
-  padding: 79px 0 41px 0;
   background-color: #2f303a;
 
 
@@ -33,7 +30,7 @@
       margin: 0 165px 0 76px;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
       margin: 0;
     }
 
@@ -43,7 +40,10 @@
 
 
   .address {
-    margin: 20px 0 60px 0;
+    @media (max-width: 1200px) {
+      margin: 20px 0 60px 0;
+    }
+
     font-style: normal;
 
     &__menu {}

@@ -1,6 +1,10 @@
 .peculiarities {
     padding: 60px 0;
 
+    @media (min-width: 1200px) {
+        padding: 94px 0;
+    }
+
 
     &__menu {
         @media (min-width: 768px) {
@@ -56,9 +60,12 @@
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        text-align: center;
 
         color: #212121;
+
+        @media (max-width: 767px) {
+            text-align: center;
+        }
     }
 
     &__text {
@@ -67,5 +74,6 @@
         line-height: 1.71;
 
         letter-spacing: 0.03em;
+        color: #757575;
     }
 }
